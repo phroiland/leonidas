@@ -97,6 +97,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# bower and node
 .idea/
 node_modules/
 bower_components/
