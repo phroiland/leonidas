@@ -1,4 +1,4 @@
-# truffle-init-webpack
+# Leonidas Dapp with truffle-init-webpack
 
 Example webpack project with Truffle. Includes contracts, migrations, tests, user interface and webpack build pipeline.
 
