@@ -1,0 +1,25 @@
+<h1>All Events</h1>
+<div ng-repeat = "event in ourEvents">
+    Name: {{event.event}}
+    Amount: {{event.args.amount}}
+</div>
+
+<div class="row">
+    <div class="col-lg-6">
+
+        <h1>Deposits</h1>
+        <div ng-repeat = "event in ourDepositEvents">
+            Name: {{event.event}}
+            Amount: {{event.args.amount}}
+        </div>
+    </div>
+    <div class="col-lg-6">
+
+        <h1>Withdrawals</h1>
+        <div ng-repeat="withdrawal in withdrawals">
+            To: {{withdrawal[0]}}<br />
+            Amount in Ether: {{withdrawal[1]}}
+
+        </div>
+    </div>
+</div>
