@@ -21,7 +21,7 @@ npm and packages:
     
 ## Building and the frontend
 
-    $ git clone ...
+    $ git clone https://github.com/phroiland/leonidas.git
     $ cd leonidas
     $ sudo npm install -g nodejs
     $ sudo npm install -g ethereumjs-testrpc
@@ -61,6 +61,8 @@ To initialize a project a project of your own...
     $ mkdir yourProject
     $ cd yourProject
     $ truffle unbox webpack
+    $ sudo npm install -g nodejs
+    $ sudo npm install -g ethereumjs-testrpc
     $ bower init --allow-root
 
 Make a .bowerrc file and add the following:
@@ -71,7 +73,6 @@ Make a .bowerrc file and add the following:
     
 Then...
     
-    $ cd app
     $ bower install --save angular angular-route --allow-root
     
 Compile and Migrate...
