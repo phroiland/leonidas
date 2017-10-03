@@ -30,7 +30,7 @@ npm and packages:
 
 Make a .bowerrc file and add the following:
     
-    $ touch .bowerc
+    $ touch .bowercc
     
     {
         "directory": "app/bower_components"
